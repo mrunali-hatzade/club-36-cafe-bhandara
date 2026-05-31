@@ -103,7 +103,7 @@ export default function WhyUs() {
           <div className="flex items-center justify-center gap-2 mb-4">
             <span className="h-[2px] w-6 bg-terracotta" />
             <p className="text-xs md:text-sm font-bold tracking-widest uppercase text-terracotta">
-              THE CLUB 26 IDENTITY
+              THE CLUB 36 IDENTITY
             </p>
             <span className="h-[2px] w-6 bg-terracotta" />
           </div>

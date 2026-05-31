@@ -40,7 +40,7 @@ export default function TopBar() {
     '🎉 Special Weekend Brunch — Every Saturday & Sunday from 10AM',
     '☕ Buy 2 Coffees, Get 1 Free — Every Monday!',
     '🎂 Celebrate your birthday with us — Complimentary dessert!',
-    '📸 Share your Club 26 moment on Instagram & get 10% off next visit!',
+    '📸 Share your Club 36 moment on Instagram & get 10% off next visit!',
   ];
 
   useEffect(() => {

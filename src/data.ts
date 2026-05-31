@@ -93,7 +93,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'm4',
-    name: 'Club 26 Devil Frappe',
+    name: 'Club 36 Devil Frappe',
     description: 'Decadent loaded cold brew with dark chocolate syrup, chocolate chip cookies, and premium vanilla ice cream float.',
     price: 169,
     category: 'cold-coffee',
@@ -147,7 +147,7 @@ export const menuItems: MenuItem[] = [
   // BURGERS
   {
     id: 'm9',
-    name: 'Club 26 Ultimate Veg Burger',
+    name: 'Club 36 Ultimate Veg Burger',
     description: 'Crispy mixed vegetable potato patty topped with sliced cheddar, secret spicy sauce, tomatoes, onions, toasted brioche.',
     price: 119,
     category: 'burgers',
@@ -177,7 +177,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'm12',
-    name: 'Club 26 Hot Supreme Pizza',
+    name: 'Club 36 Hot Supreme Pizza',
     description: 'Loaded with spicy paneer tikka, sweet gold corn kernels, crunchy capsicum, black olives, and premium cheese pull.',
     price: 249,
     category: 'pizza',
@@ -274,7 +274,7 @@ export const menuItems: MenuItem[] = [
 export const signatureSpecials: SpecialItem[] = [
   {
     id: 'spec-1',
-    name: 'Club 26 Royal Tower Burger',
+    name: 'Club 36 Royal Tower Burger',
     description: 'Our absolute masterpiece. Beautifully crispy spiced double house veg patties, two sheets of melting English cheddar, handcrafted crunchy onion rings, fresh key garden lettuce, and our legendary proprietary secret pink burger glaze layered in premium buttered brioche.',
     price: 219,
     image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800',
@@ -306,7 +306,7 @@ export const reviewsData: Review[] = [
     id: 'r1',
     name: 'Aniruddha Deshmukh',
     role: 'Local Guide',
-    comment: 'Undoubtedly the best cafe in Bhandara! The cozy vibes and seating layout make it perfect for weekend meetups. Their Club 26 Devil Frappe is a masterpiece, and prices are super affordable compared to quality.',
+    comment: 'Undoubtedly the best cafe in Bhandara! The cozy vibes and seating layout make it perfect for weekend meetups. Their Club 36 Devil Frappe is a masterpiece, and prices are super affordable compared to quality.',
     rating: 5,
     date: '1 week ago',
     avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=150'

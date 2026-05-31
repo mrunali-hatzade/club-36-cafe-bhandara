@@ -10,7 +10,7 @@ type Tab = 'contact' | 'feedback';
 const brandInfo = {
   address: 'Sursuman Bhavan, Station Road, beside MedPlus, Santaji Ward, Santaji Nagar, Bhandara, Maharashtra 441904',
   phone: '+91 95271 13636',
-  email: 'club26cafe.bhandara@gmail.com',
+  email: 'club36cafe.bhandara@gmail.com',
   hours: 'Monday – Sunday: 10:00 AM – 11:00 PM',
 };
 
@@ -71,7 +71,7 @@ export default function Contact() {
     e.preventDefault();
     if (!contact.name || !contact.phone || !contact.message) return;
     setContactLoading(true);
-    const msg = `📩 *Contact Us – Club 26 Cafe*\n\n👤 *Name:* ${contact.name}\n📞 *Phone:* ${contact.phone}\n📧 *Email:* ${contact.email || 'Not provided'}\n\n💬 *Message:*\n${contact.message}`;
+    const msg = `📩 *Contact Us – Club 36 Cafe*\n\n👤 *Name:* ${contact.name}\n📞 *Phone:* ${contact.phone}\n📧 *Email:* ${contact.email || 'Not provided'}\n\n💬 *Message:*\n${contact.message}`;
     setTimeout(() => {
       setContactLoading(false);
       setContactSent(true);
@@ -84,7 +84,7 @@ export default function Contact() {
     if (!feedback.rating || !feedback.comment) return;
     setFeedbackLoading(true);
     const stars = '⭐'.repeat(feedback.rating);
-    const msg = `⭐ *Customer Feedback – Club 26 Cafe*\n\n${feedback.name ? `👤 *Name:* ${feedback.name}\n` : ''}📋 *Category:* ${feedback.category}\n${stars} *Rating:* ${feedback.rating}/5\n\n💬 *Comments:*\n${feedback.comment}\n\n🤝 *Would Recommend:* ${feedback.recommend || 'Not answered'}`;
+    const msg = `⭐ *Customer Feedback – Club 36 Cafe*\n\n${feedback.name ? `👤 *Name:* ${feedback.name}\n` : ''}📋 *Category:* ${feedback.category}\n${stars} *Rating:* ${feedback.rating}/5\n\n💬 *Comments:*\n${feedback.comment}\n\n🤝 *Would Recommend:* ${feedback.recommend || 'Not answered'}`;
     setTimeout(() => {
       setFeedbackLoading(false);
       setFeedbackSent(true);
@@ -129,7 +129,7 @@ export default function Contact() {
           >
             {/* Info card */}
             <div className="bg-white/80 dark:bg-neutral-900/80 backdrop-blur-xl rounded-3xl border border-coffee/10 dark:border-beige/10 p-7 shadow-lg space-y-5">
-              <h3 className="font-display font-bold text-xl text-coffee dark:text-beige">Club 26 Cafe</h3>
+              <h3 className="font-display font-bold text-xl text-coffee dark:text-beige">Club 36 Cafe</h3>
 
               {[
                 { icon: MapPin, title: 'Address', content: brandInfo.address },
@@ -168,7 +168,7 @@ export default function Contact() {
             <div className="rounded-3xl overflow-hidden border border-coffee/10 dark:border-beige/10 shadow-md" style={{ height: 240 }}>
               <iframe
                 src="https://maps.google.com/maps?q=sursuman%20Bhavan,%20Station%20road,%20beside%20MedPlus,%20Santaji%20Ward,%20Santaji%20Nagar,%20Bhandara,%20Maharashtra%20441904&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                title="Club 26 Location"
+                title="Club 36 Location"
                 className="w-full h-full border-0"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

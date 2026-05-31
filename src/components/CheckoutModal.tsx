@@ -94,7 +94,7 @@ export default function CheckoutModal() {
         : '💳 Card Swipe on delivery';
 
     const msg = 
-`🛍️ *New Order — Club 26 Cafe, Bhandara*
+`🛍️ *New Order — Club 36 Cafe, Bhandara*
 
 👤 *Customer:* ${name}
 📞 *Phone:* ${phone}${email ? `\n📧 *Email:* ${email}` : ''}

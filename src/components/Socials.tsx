@@ -15,7 +15,7 @@ export default function Socials() {
             <div className="flex items-center gap-2 mb-4">
               <span className="h-[2px] w-8 bg-terracotta" />
               <p className="text-xs md:text-sm font-bold tracking-widest uppercase text-terracotta">
-                #CLUB26BHANDARA
+                #CLUB36BHANDARA
               </p>
             </div>
             
@@ -30,7 +30,7 @@ export default function Socials() {
           {/* Follow Button */}
           <motion.a
             id="instagram-follow-btn"
-            href="https://instagram.com/club26_bhandara_placeholder"
+            href="https://instagram.com/club36_bhandara_placeholder"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
@@ -38,7 +38,7 @@ export default function Socials() {
             className="btn-premium px-6 py-4 bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCAF45] text-cream font-bold rounded-2xl flex items-center justify-center gap-2.5 shadow-lg shadow-red-500/15 cursor-pointer text-sm"
           >
             <Instagram className="w-5 h-5 fill-cream stroke-none" />
-            Follow @club26_bhandara
+            Follow @club36_bhandara
           </motion.a>
         </div>
 
@@ -47,7 +47,7 @@ export default function Socials() {
           {instagramPosts.map((post, idx) => (
             <motion.a
               key={post.id}
-              href="https://instagram.com/club26_bhandara_placeholder"
+              href="https://instagram.com/club36_bhandara_placeholder"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 15 }}

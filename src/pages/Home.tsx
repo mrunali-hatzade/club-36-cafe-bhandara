@@ -6,18 +6,22 @@ import Specials from '../components/Specials';
 import BookingCTA from '../components/BookingCTA';
 import Reviews from '../components/Reviews';
 import Contact from '../components/Contact';
+import FloatingEquipment from '../components/FloatingEquipment';
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <About />
-      <WhyUs />
-      <Menu />
-      <Specials />
-      <BookingCTA />
-      <Reviews />
-      <Contact />
+      <div className="relative overflow-visible">
+        <FloatingEquipment />
+        <About />
+        <WhyUs />
+        <Menu />
+        <Specials />
+        <BookingCTA />
+        <Reviews />
+        <Contact />
+      </div>
     </>
   );
 }

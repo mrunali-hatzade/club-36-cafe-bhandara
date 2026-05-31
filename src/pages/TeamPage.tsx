@@ -215,7 +215,7 @@ export default function TeamPage() {
           Meet Our Team
         </h1>
         <p className="text-base text-charcoal/60 dark:text-cream/60 font-light leading-relaxed max-w-2xl mx-auto">
-          Every smile, every sip, every bite — crafted by a passionate team that truly loves what they do. Club 26 is more than a café, it's a family.
+          Every smile, every sip, every bite — crafted by a passionate team that truly loves what they do. Club 36 is more than a café, it's a family.
         </p>
       </motion.div>
 
@@ -266,10 +266,10 @@ export default function TeamPage() {
           We're always looking for passionate people who love food, coffee, and great hospitality. Reach out to us!
         </p>
         <a
-          href="mailto:club26cafe.bhandara@gmail.com"
+          href="mailto:club36cafe.bhandara@gmail.com"
           className="inline-flex items-center gap-2 px-6 py-3 bg-coffee text-cream rounded-xl font-semibold text-sm hover:bg-terracotta transition-colors"
         >
-          Apply at club26cafe.bhandara@gmail.com
+          Apply at club36cafe.bhandara@gmail.com
         </a>
       </motion.div>
     </div>

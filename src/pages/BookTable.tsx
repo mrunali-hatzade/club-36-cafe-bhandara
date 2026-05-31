@@ -126,7 +126,7 @@ export default function BookTable() {
     if (!validateStep(3)) return;
     setLoading(true);
     const msg =
-`🍽️ *Table Reservation — Club 26 Cafe, Bhandara*
+`🍽️ *Table Reservation — Club 36 Cafe, Bhandara*
 
 👤 *Name:* ${form.name}
 📞 *Phone:* ${form.phone}${form.email ? `\n📧 *Email:* ${form.email}` : ''}

@@ -125,7 +125,7 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
             </motion.div>
             <div className="flex flex-col leading-none">
               <span className="font-display font-extrabold text-xl tracking-tight leading-none text-shimmer-gold flex overflow-visible">
-                {"CLUB 26".split("").map((char, index) => (
+                {"CLUB 36 CAFE".split("").map((char, index) => (
                   <motion.span
                     key={index}
                     whileHover={{ y: -4, scale: 1.15, color: "#C97B63" }}
@@ -180,7 +180,7 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
                             {[
                               { label: 'Memories In A Snap', hash: 'gallery' },
                               { label: 'Cafe Culture & Vibe', hash: 'experience' },
-                              { label: '#CLUB26BHANDARA', hash: 'instagram' },
+                              { label: '#CLUB36BHANDARA', hash: 'instagram' },
                             ].map((sub) => (
                               <Link
                                 key={sub.label}
@@ -301,7 +301,7 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
                 <div className="flex items-center gap-2">
                   <div className="p-1.5 bg-coffee text-cream rounded-lg"><Coffee className="w-4 h-4" /></div>
                   <span className="font-display font-bold text-shimmer-gold flex overflow-visible">
-                    {"CLUB 26".split("").map((char, index) => (
+                    {"CLUB 36 CAFE".split("").map((char, index) => (
                       <motion.span
                         key={index}
                         whileHover={{ y: -3, scale: 1.15, color: "#C97B63" }}
@@ -359,7 +359,7 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
                                 {[
                                   { label: 'Memories In A Snap', hash: 'gallery' },
                                   { label: 'Cafe Culture & Vibe', hash: 'experience' },
-                                  { label: '#CLUB26BHANDARA', hash: 'instagram' },
+                                  { label: '#CLUB36BHANDARA', hash: 'instagram' },
                                 ].map((sub) => (
                                   <Link
                                     key={sub.label}

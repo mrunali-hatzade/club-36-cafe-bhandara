@@ -138,7 +138,7 @@ export default function Footer() {
               </motion.div>
               <div>
                 <div className="font-display font-extrabold text-2xl tracking-tight text-shimmer-gold leading-none flex">
-                  {"CLUB 26".split("").map((char, index) => (
+                  {"CLUB 36 CAFE".split("").map((char, index) => (
                     <motion.span
                       key={index}
                       whileHover={{ y: -4 }}
@@ -173,8 +173,8 @@ export default function Footer() {
               <div className="flex gap-3">
                 {[
                   { href: 'https://wa.me/919527113636', name: 'WhatsApp', details: 'Order & Chat: +91 95271 13636', icon: <MessageSquare className="w-5 h-5 fill-[#25D366] stroke-none" />, color: 'hover:bg-[#25D366]/20 hover:border-[#25D366]/40' },
-                  { href: 'https://instagram.com/club26_bhandara_placeholder', name: 'Instagram', details: '@club26_bhandara', icon: <Instagram className="w-5 h-5" />, color: 'hover:bg-[#E1306C]/20 hover:border-[#E1306C]/40' },
-                  { href: 'https://facebook.com', name: 'Facebook', details: 'Club 26 Cafe Facebook', icon: <Facebook className="w-5 h-5 fill-[#1877F2] stroke-none" />, color: 'hover:bg-[#1877F2]/20 hover:border-[#1877F2]/40' },
+                  { href: 'https://instagram.com/club36_bhandara_placeholder', name: 'Instagram', details: '@club36_bhandara', icon: <Instagram className="w-5 h-5" />, color: 'hover:bg-[#E1306C]/20 hover:border-[#E1306C]/40' },
+                  { href: 'https://facebook.com', name: 'Facebook', details: 'Club 36 Cafe Facebook', icon: <Facebook className="w-5 h-5 fill-[#1877F2] stroke-none" />, color: 'hover:bg-[#1877F2]/20 hover:border-[#1877F2]/40' },
                   { href: 'https://maps.google.com/?q=Club+36+Cafe+Bhandara', name: 'Google Maps', details: 'Santaji Nagar, Bhandara', icon: <MapPin className="w-5 h-5" />, color: 'hover:bg-terracotta/20 hover:border-terracotta/40' },
                 ].map((s, i) => (
                   <motion.a
@@ -265,7 +265,7 @@ export default function Footer() {
                 },
                 {
                   icon: <Mail className="w-4 h-4 text-terracotta flex-shrink-0" />,
-                  content: <a href="mailto:club26cafe.bhandara@gmail.com" className="hover:text-terracotta transition-colors break-all">club26cafe.bhandara@gmail.com</a>,
+                  content: <a href="mailto:club36cafe.bhandara@gmail.com" className="hover:text-terracotta transition-colors break-all">club36cafe.bhandara@gmail.com</a>,
                 },
               ].map((item, i) => (
                 <motion.div
@@ -300,7 +300,7 @@ export default function Footer() {
           variants={itemVariants}
           className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-cream/30"
         >
-          <div>© {currentYear} Club 26 Cafe, Bhandara. All Rights Reserved.</div>
+          <div>© {currentYear} Club 36 Cafe, Bhandara. All Rights Reserved.</div>
           <motion.div
             className="flex items-center gap-1.5"
             whileHover={{ scale: 1.05 }}

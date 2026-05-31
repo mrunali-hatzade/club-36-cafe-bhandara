@@ -238,7 +238,7 @@ export default function Menu() {
                   {/* Booking / Quick Order button */}
                   <div className="border-t border-coffee/10 dark:border-beige/10 pt-5 mt-5 flex items-center justify-between">
                     <span className="text-[10px] tracking-widest uppercase font-bold text-charcoal/40 dark:text-cream/40">
-                      Club 26 Fresh
+                      Club 36 Fresh
                     </span>
 
                     <button

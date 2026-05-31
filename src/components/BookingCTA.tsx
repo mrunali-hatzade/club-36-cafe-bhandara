@@ -31,7 +31,7 @@ export default function BookingCTA() {
             <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold text-coffee dark:text-beige leading-tight mb-5 relative z-10">
               Plan Your Perfect<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-terracotta to-amber-600 font-extrabold">
-                Club 26 Visit
+                Club 36 Visit
               </span>
             </h2>
             <p className="text-base text-charcoal/65 dark:text-cream/65 font-light leading-relaxed mb-8 max-w-md relative z-10">
@@ -102,7 +102,7 @@ export default function BookingCTA() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-coffee/15 border border-coffee/10 dark:border-beige/10 group">
               <img
                 src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800"
-                alt="Club 26 Cafe Interior"
+                alt="Club 36 Cafe Interior"
                 className="w-full h-80 object-cover group-hover:scale-103 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />

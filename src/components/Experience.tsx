@@ -80,7 +80,7 @@ export default function Experience() {
             </h2>
 
             <p className="text-sm sm:text-base text-charcoal/70 dark:text-cream/70 font-light leading-relaxed mb-8">
-              At Club 26 Bhandara, we build experiences. We have combined spacious high-ceiling layouts paths, curated ambient light, and customized leather booths to provide an environment that is energetic yet calming.
+              At Club 36 Bhandara, we build experiences. We have combined spacious high-ceiling layouts paths, curated ambient light, and customized leather booths to provide an environment that is energetic yet calming.
             </p>
 
             {/* List of Culture Pillars */}

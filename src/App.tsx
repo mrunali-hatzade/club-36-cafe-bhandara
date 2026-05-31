@@ -104,7 +104,7 @@ export default function App() {
               transition={{ delay: 0.3 }}
               className="font-display font-black text-3xl tracking-widest text-[#6F4E37] uppercase leading-none"
             >
-              CLUB 26 CAFE
+              CLUB 36 CAFE
             </motion.h1>
             <motion.p
               initial={{ opacity: 0 }}
@@ -132,23 +132,12 @@ export default function App() {
 
       {/* Main Page Layout Wrapper */}
       <motion.div 
-        className="relative min-h-screen selection:bg-coffee selection:text-cream overflow-x-hidden bg-cream/85 dark:bg-charcoal/90 text-charcoal dark:text-cream transition-colors duration-500 flex flex-col"
+        className="relative min-h-screen selection:bg-coffee selection:text-cream overflow-x-hidden bg-cream dark:bg-charcoal text-charcoal dark:text-cream transition-colors duration-500 flex flex-col"
         style={{
           ['--x' as any]: useMotionTemplate`${springX}px`,
           ['--y' as any]: useMotionTemplate`${springY}px`
         }}
       >
-        {/* Global Parallax Background */}
-        <motion.div 
-          className="fixed -inset-10 z-0 pointer-events-none"
-          style={{ y: bgY, opacity: bgOpacity }}
-        >
-          <img 
-            src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1920" 
-            alt="Cafe Background Aesthetic"
-            className="w-full h-[130vh] object-cover dark:grayscale"
-          />
-        </motion.div>
 
         <div className="mouse-glow fixed inset-0 z-30 opacity-70 dark:opacity-40 pointer-events-none" />
 

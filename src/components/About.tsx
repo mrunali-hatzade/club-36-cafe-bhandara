@@ -54,7 +54,7 @@ export default function About() {
               <div className="absolute inset-0 bg-coffee/10 group-hover:bg-transparent transition-colors duration-300 z-10" />
               <img
                 src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800"
-                alt="Cozy leather booths at Club 26"
+                alt="Cozy leather booths at Club 36"
                 className="w-full h-64 sm:h-80 object-cover group-hover:scale-103 transition-transform duration-700"
                 referrerPolicy="no-referrer"
               />
@@ -117,7 +117,7 @@ export default function About() {
               className="text-base sm:text-lg text-charcoal/80 dark:text-cream/85 font-light leading-relaxed mb-6"
             >
               Created as a vibrant hub for the youth, families, and food lovers of Bhandara, 
-              <strong className="font-semibold text-coffee dark:text-beige"> Club 26 Cafe </strong> 
+              <strong className="font-semibold text-coffee dark:text-beige"> Club 36 Cafe </strong> 
               is more than just a destination; it is where community converges. It represents a 
               beautiful oasis crafted to help you slow down, relax, and savor life's best slices.
             </motion.p>
@@ -128,7 +128,7 @@ export default function About() {
             >
               From comfortable plush seating and ambient warm lighting to our carefully curated 
               beverage recipes and fresh gourmet sandwiches, pizzas, and burger platters — everything 
-              at Club 26 is designed with passion. Here, conversations flow seamlessly over hand-brewed 
+              at Club 36 is designed with passion. Here, conversations flow seamlessly over hand-brewed 
               cappuccinos and crispy, loaded fries.
             </motion.p>
 

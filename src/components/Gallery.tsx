@@ -77,7 +77,7 @@ export default function Gallery() {
             <span className="h-[2px] w-6 bg-terracotta" />
           </div>
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-4 text-coffee dark:text-beige leading-tight">
-            Club 26 Photo Gallery
+            Club 36 Photo Gallery
           </h2>
           <p className="text-sm sm:text-base text-charcoal/70 dark:text-cream/70 font-light max-w-lg mx-auto">
             Take a visual tour through our mouth-watering recipe creations, vibrant beverages, and cozy seating architecture.

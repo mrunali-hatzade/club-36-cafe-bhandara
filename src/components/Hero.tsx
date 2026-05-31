@@ -1,7 +1,10 @@
-import { motion } from 'motion/react';
+import { motion, useScroll, useTransform } from 'motion/react';
 import { ArrowRight, MapPin, ChevronDown, Star } from 'lucide-react';
 
 export default function Hero() {
+  const { scrollY } = useScroll();
+  const bgY = useTransform(scrollY, [0, 800], [0, 160]);
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -51,7 +54,7 @@ export default function Hero() {
       {/* Background Image with elegant overlay / Parallax */}
       <div className="absolute inset-0 z-0">
         <div 
-          className="absolute inset-0 bg-gradient-to-b from-black/85 via-black/55 to-cream/98 dark:to-charcoal/98 z-10 transition-colors duration-500" 
+          className="absolute inset-0 bg-gradient-to-b from-black/85 via-black/45 to-transparent z-10" 
         />
         <motion.div
           initial={{ scale: 1.15, opacity: 0 }}
@@ -60,9 +63,10 @@ export default function Hero() {
             opacity: { duration: 1.8, ease: 'easeOut' },
             scale: { duration: 30, repeat: Infinity, repeatType: 'reverse', ease: 'linear' }
           }}
-          className="w-full h-full bg-cover bg-center origin-center"
+          className="absolute -inset-x-0 -top-20 h-[125%] bg-cover bg-center origin-center"
           style={{
             backgroundImage: `url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=2000')`,
+            y: bgY
           }}
           referrerPolicy="no-referrer"
         />
@@ -144,7 +148,7 @@ export default function Hero() {
             className="text-base sm:text-lg md:text-xl text-cream/90 max-w-2xl font-light mb-10 leading-relaxed drop-shadow-xs"
           >
             Enjoy delicious food, refreshing beverages, and memorable moments with friends and family at 
-            <strong className="font-semibold text-beige"> Club 26 Cafe</strong>.
+            <strong className="font-semibold text-beige"> Club 36 Cafe</strong>.
           </motion.p>
 
           {/* Two Interactive Call to Actions */}

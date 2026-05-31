@@ -4,7 +4,7 @@ import { Sparkles, MessageSquare, Check } from 'lucide-react';
 
 export default function Specials() {
   const handleOrderSpecial = (name: string, price: number) => {
-    const textMsg = `Hi Club 26! I would love to order your signature special: "${name}" (₹${price})! Please confirm.`;
+    const textMsg = `Hi Club 36! I would love to order your signature special: "${name}" (₹${price})! Please confirm.`;
     const encoded = encodeURIComponent(textMsg);
     window.open(`https://wa.me/919527113636?text=${encoded}`, '_blank');
   };
