@@ -1,0 +1,6 @@
+{
+  "name": "Club 36 Cafe Bhandara",
+  "description": "Premium, modern, fully responsive website for Club 36 Cafe in Bhandara, Maharashtra - capturing a warm, welcoming, and vibrant youth-centered cafe experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
